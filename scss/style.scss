@@ -1,0 +1,26 @@
+/* NAVIGATION */
+
+:focus:not(:focus-visible) {
+   outline: 0;
+   box-shadow: none;
+}
+
+
+
+
+/* HEADER */
+
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+/* FEATURES LIST */
+ .features-list-icon {
+    width: 4rem;
+    height: 4rem;
+ }
+
+ .navbar {
+    background: #F5F5F5;
+ }

@@ -1,0 +1,25 @@
+//FONTS
+$font-family-sans-serif:'Montserrat', sans-serif;
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 12,
+) !default;
+
+// GRADIENT
+
+$gradient:   linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)!default;
+
+//COLORS
+$light: #F5F5F5;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
