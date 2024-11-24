@@ -19,3 +19,11 @@
 .navbar {
   background: #F5F5F5;
 }
+#navbarNav ul li a{
+  font-weight: bold;
+}
+
+#navbarNav ul li a:hover{
+  color: #039bda;
+  font-weight: bold;
+}
